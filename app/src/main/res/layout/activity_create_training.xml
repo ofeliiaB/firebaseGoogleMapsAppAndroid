@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateTraining"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/trainingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Training Name"
+        />
+    <EditText
+        android:id="@+id/trainingDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        />
+    <EditText
+        android:id="@+id/trainingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price per hour"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Training"
+        android:onClick="createTrainingButtonClicked"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:onClick="goBackButtonClicked"
+        />
+</LinearLayout>
